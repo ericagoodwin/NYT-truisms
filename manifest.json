@@ -9,7 +9,7 @@
   "content_scripts": [
     {
       "matches":["https://*.nytimes.com/*"],
-      "js": ["myscript.js"],
+      "js": ["script.js"],
       "run_at": "document_end"
     }
   ]
